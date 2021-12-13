@@ -27,6 +27,12 @@ class Payment
      */
     private $amount;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Order::class, inversedBy="payment")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $product_order;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -52,6 +58,18 @@ class Payment
     public function setAmount(float $amount): self
     {
         $this->amount = $amount;
+
+        return $this;
+    }
+
+    public function getProductOrder(): ?Order
+    {
+        return $this->product_order;
+    }
+
+    public function setProductOrder(?Order $product_order): self
+    {
+        $this->product_order = $product_order;
 
         return $this;
     }
