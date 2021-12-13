@@ -24,13 +24,21 @@
         "version": "3.2.0"
     },
     "doctrine/dbal": {
+<<<<<<< HEAD
         "version": "2.13.4"
+=======
+        "version": "3.2.0"
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     },
     "doctrine/deprecations": {
         "version": "v0.5.3"
     },
     "doctrine/doctrine-bundle": {
+<<<<<<< HEAD
         "version": "2.4",
+=======
+        "version": "2.5",
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
@@ -41,12 +49,21 @@
             "config/packages/doctrine.yaml",
             "config/packages/prod/doctrine.yaml",
             "config/packages/test/doctrine.yaml",
+<<<<<<< HEAD
             "src/Repository/.gitignore",
             "src/Entity/.gitignore"
         ]
     },
     "doctrine/doctrine-migrations-bundle": {
         "version": "3.1",
+=======
+            "src/Entity/.gitignore",
+            "src/Repository/.gitignore"
+        ]
+    },
+    "doctrine/doctrine-migrations-bundle": {
+        "version": "3.2",
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
@@ -71,25 +88,43 @@
         "version": "1.2.1"
     },
     "doctrine/migrations": {
+<<<<<<< HEAD
         "version": "3.2.1"
     },
     "doctrine/orm": {
         "version": "2.10.2"
+=======
+        "version": "3.3.2"
+    },
+    "doctrine/orm": {
+        "version": "2.10.3"
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     },
     "doctrine/persistence": {
         "version": "2.2.3"
     },
     "doctrine/sql-formatter": {
+<<<<<<< HEAD
         "version": "1.1.1"
+=======
+        "version": "1.1.2"
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
     "laminas/laminas-code": {
+<<<<<<< HEAD
         "version": "4.4.3"
     },
     "nikic/php-parser": {
         "version": "v4.13.1"
+=======
+        "version": "4.5.0"
+    },
+    "nikic/php-parser": {
+        "version": "v4.13.2"
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     },
     "psr/cache": {
         "version": "2.0.0"
@@ -131,7 +166,11 @@
         "version": "v2.4.0"
     },
     "symfony/doctrine-bridge": {
+<<<<<<< HEAD
         "version": "v5.3.8"
+=======
+        "version": "v5.3.11"
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     },
     "symfony/dotenv": {
         "version": "v5.3.10"
@@ -192,7 +231,11 @@
         "version": "v5.3.10"
     },
     "symfony/maker-bundle": {
+<<<<<<< HEAD
         "version": "1.34",
+=======
+        "version": "1.36",
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
@@ -200,9 +243,12 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
+<<<<<<< HEAD
     "symfony/password-hasher": {
         "version": "v5.3.8"
     },
+=======
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.1"
     },
@@ -221,6 +267,7 @@
     "symfony/polyfill-php81": {
         "version": "v1.23.0"
     },
+<<<<<<< HEAD
     "symfony/property-access": {
         "version": "v5.3.8"
     },
@@ -229,6 +276,10 @@
     },
     "symfony/proxy-manager-bridge": {
         "version": "v5.3.4"
+=======
+    "symfony/proxy-manager-bridge": {
+        "version": "v5.3.11"
+>>>>>>> 3fc952e8fd4fd0040448fae4dd58046777fab2ce
     },
     "symfony/routing": {
         "version": "5.3",
